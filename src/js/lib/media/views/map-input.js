@@ -487,6 +487,8 @@ class MapInput extends Backbone.View {
 						lat: latlng.lat,
 						lng: latlng.lng,
 						geocode: [],
+						// Also store all original properties
+						properties: e.properties
 					}
 
 				// getting rid of the modal – #35
